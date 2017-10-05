@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Alyssa Keimach | Contact</title>
 
 </head>
@@ -12,67 +13,70 @@
 
     <header>
 
-        <h1>Alyssa Keimach</h1>
+        <nav class="navigation-bar">
 
-        <h3><a href="index.html">About</a></h3>
+            <h1 class="invert-colors">Alyssa Keimach</h1>
 
-        <h3><a href="portfolio.html">Portfolio</a></h3>
+            <ul>
 
-        <h3><a href="#">Contact</a></h3>
+                <li><a href="index.html">About</a></li>
+
+                <li><a href="portfolio.html">Portfolio</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
 
     </header>
 
-    <div class="container">
+    <section class="content-main">
 
-        <section id="contact">
+        <h1>Contact</h1>
 
-            <h2>Contact</h2>
+        <div class="line"></div>
 
-            <hr>
+        <form>
+            <p>Name</p>
+            <input class="contact-box" type="text" name="name-input" value="John Smith">
 
-            <form>
-                <p>Name</p>
-                <input type="text" name="name-input" value="John Smith">
+            <p>Email</p>
+            <input class="contact-box" type="text" name="email-input" value="example@gmail.com">
 
-                <p>Email</p>
-                <input type="text" name="email-input" value="example@gmail.com">
+            <p>Message</p>
+            <textarea class="contact-box message-box" type="text" name="message-input"></textarea>
 
-                <p>Message</p>
-                <input type="text" name="message-input">
+            <br>
+            <input class="contact-box submit-box" type="submit" name="Submit">
 
-                <br><br>
-                <input type="submit" name="Submit">
+        </form>
 
-            </form>
+    </section>
 
-        </section>
+    <section class="content-connect">
 
-        <section id="connect-with-me">
+        <h2>Connect with Me</h2>
 
-            <h3>Connect with Me</h3>
+        <div class="line line-small"></div>
 
-            <hr>
+        <a href="https://github.com/akeimach" target="_blank">
+            <img src="assets/images/icon_github.png" alt="Github" width="50" height="50">
+        </a>
 
-            <a href="https://github.com/akeimach" target="_blank">
-                <img src="assets/images/icon_github.png" alt="Github" width="50" height="50">
-            </a>
+        <a href="https://www.linkedin.com/in/akeimach/" target="_blank">
+            <img src="assets/images/icon_linkedin.png" alt="LinkedIn" width="50" height="50">
+        </a>
 
-            <a href="https://www.linkedin.com/in/akeimach/" target="_blank">
-                <img src="assets/images/icon_linkedin.png" alt="LinkedIn" width="50" height="50">
-            </a>
+        <a href="https://stackoverflow.com/users/4525770/alyssakm" target="_blank">
+            <img src="assets/images/icon_stackoverflow.png" alt="StackOverflow" width="50" height="50">
+        </a>
 
-            <a href="https://stackoverflow.com/users/4525770/alyssakm" target="_blank">
-                <img src="assets/images/icon_stackoverflow.png" alt="StackOverflow" width="50" height="50">
-            </a>
-
-        </section>
-
-
-    </div>
+    </section>
 
     <footer>
 
-        <p>© Copyright 2017 Alyssa Keimach</p>
+        <p class="footer-text">© Copyright 2017 Alyssa Keimach</p>
 
     </footer>
 
